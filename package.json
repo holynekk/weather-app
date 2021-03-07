@@ -1,0 +1,31 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "The Odin Project weather-app",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holynekk/weather-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holynekk/weather-app/issues"
+  },
+  "homepage": "https://github.com/holynekk/weather-app#readme",
+  "dependencies": {
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0"
+  },
+  "devDependencies": {
+    "css-loader": "^5.1.1",
+    "html-webpack-plugin": "^5.2.0",
+    "style-loader": "^2.0.0"
+  }
+}
